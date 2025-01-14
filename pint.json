@@ -1,0 +1,17 @@
+{
+  "preset": "psr12",
+  "rules": {
+    "declare_strict_types": true,
+    "indentation_type": true,
+    "no_extra_blank_lines": true,
+    "statement_indentation": false,
+    "blank_line_after_namespace": false,
+    "blank_lines_before_namespace": false,
+    "braces_position": false
+  },
+  "php": {
+    "docblock": false
+  },
+  "indent_size": 2,
+  "indent_style": "space"
+}
