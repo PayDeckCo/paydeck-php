@@ -11,7 +11,11 @@
   "autoload-dev": {
     "psr-4": {
       "Paydeck\\Tests\\": "tests/"
-    }
+    },
+    "files": [
+      "vendor/pestphp/pest/src/Functions.php",
+      "vendor/mockery/mockery/library/helpers.php"
+    ]
   },
   "authors": [
     {
