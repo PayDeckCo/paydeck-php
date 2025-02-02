@@ -1,12 +1,12 @@
 <?php
 
 declare(strict_types=1);
-namespace Paydeck\Src\Providers;
+namespace Paydeck\Src;
 use Paydeck\Src\Exceptions\InvalidPaymentProviderException;
 use Paydeck\Src\Providers\FlutterwaveProvider;
 use Paydeck\Src\Providers\PaystackProvider;
 
-class PaymentProvider
+final class PaymentProvider
 {
   /**
    * @param string $provider
