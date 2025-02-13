@@ -1,10 +1,10 @@
 <?php
 
 declare(strict_types=1);
-namespace Paydeck\Src\Utility;
+namespace Paydeck\Utility;
 use Curl\Curl;
 use Exception;
-use Paydeck\Src\Exceptions\HttpClientException;
+use Paydeck\Exceptions\HttpClientException;
 
 class HttpClient
 {

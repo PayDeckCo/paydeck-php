@@ -1,7 +1,7 @@
 <?php
 
 namespace Paydeck\Tests;
-use Paydeck\Src\Enums\PaymentMethodEnum;
+use Paydeck\Enums\PaymentMethodEnum;
 
 it('has correct enum cases', function () {
   $cases = PaymentMethodEnum::cases();

@@ -1,7 +1,7 @@
 <?php
 
 namespace Paydeck\Tests;
-use Paydeck\Src\Utility\HttpClient;
+use Paydeck\Utility\HttpClient;
 
 
 beforeEach(function () {
