@@ -1,17 +1,17 @@
 <?php
 
 declare(strict_types=1);
-namespace Paydeck\Src\Providers;
-use Paydeck\Src\Contracts\PaymentProviderInterface;
-use Paydeck\Src\Enums\PaymentProviderEnum;
+namespace Paydeck\Providers;
+use Paydeck\Contracts\PaymentProviderInterface;
+use Paydeck\Enums\PaymentProviderCodeEnum;
 
 class FlutterwaveProvider implements PaymentProviderInterface
 {
   /**
    * @return string
    */
-  public function getProviderName(): string
+  public function getProviderCode(): string
   {
-    return PaymentProviderEnum::FLUTTERWAVE->value;
+    return PaymentProviderCodeEnum::FLUTTERWAVE->value;
   }
 }

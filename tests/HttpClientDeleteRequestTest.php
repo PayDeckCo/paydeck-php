@@ -3,8 +3,8 @@
 namespace Paydeck\Tests;
 use Curl\Curl;
 use Mockery;
-use Paydeck\Src\Exceptions\HttpClientException;
-use Paydeck\Src\Utility\HttpClient;
+use Paydeck\Exceptions\HttpClientException;
+use Paydeck\Utility\HttpClient;
 
 
 beforeEach(function () {

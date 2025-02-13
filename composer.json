@@ -1,11 +1,11 @@
 {
   "name": "paydeck/paydeck-php",
-  "description": "The PayDeck Payment abstraction library - A library for multiple african payment providers",
+  "description": "The Paydeck Payment abstraction library - A library for multiple african payment providers",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Paydeck\\Src\\": "src/"
+      "Paydeck\\": "src/"
     }
   },
   "autoload-dev": {
@@ -27,11 +27,6 @@
       "role": "Software Developer",
       "name": "Olaniyi Ojeyinka",
       "email": "olaniyiojeyinka@gmail.com"
-    },
-    {
-      "role": "Software Developer",
-      "name": "Yinka Adedire",
-      "email": "yinkakun@gmail.com"
     }
   ],
   "require": {

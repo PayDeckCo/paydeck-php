@@ -1,18 +1,18 @@
 <?php
 
 namespace Paydeck\Tests;
-use Paydeck\Src\Enums\PaymentProviderEnum;
-use Paydeck\Src\Exceptions\InvalidPaymentProviderException;
-use Paydeck\Src\PaymentProvider;
-use Paydeck\Src\Providers\FlutterwaveProvider;
-use Paydeck\Src\Providers\PaystackProvider;
+use Paydeck\Enums\PaymentProviderCodeEnum;
+use Paydeck\Exceptions\InvalidPaymentProviderException;
+use Paydeck\PaymentProvider;
+use Paydeck\Providers\FlutterwaveProvider;
+use Paydeck\Providers\PaystackProvider;
 
 
 it('returns the correct payment provider instance', function (): void {
-  expect(PaymentProvider::setProvider(PaymentProviderEnum::PAYSTACK->value))
+  expect(PaymentProvider::setProvider(PaymentProviderCodeEnum::PAYSTACK->value))
     ->toBeInstanceOf(PaystackProvider::class);
 
-  expect(PaymentProvider::setProvider(PaymentProviderEnum::FLUTTERWAVE->value))
+  expect(PaymentProvider::setProvider(PaymentProviderCodeEnum::FLUTTERWAVE->value))
     ->toBeInstanceOf(FlutterwaveProvider::class);
 });
 

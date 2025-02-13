@@ -1,6 +1,6 @@
 <?php
 
-namespace Paydeck\Src\Enums;
+namespace Paydeck\Enums;
 
 enum PaymentMethodEnum: string
 {

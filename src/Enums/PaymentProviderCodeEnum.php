@@ -1,8 +1,8 @@
 <?php
 
-namespace Paydeck\Src\Enums;
+namespace Paydeck\Enums;
 
-enum PaymentProviderEnum: string
+enum PaymentProviderCodeEnum: string
 {
   case FLUTTERWAVE = 'FLUTTERWAVE';
   case PAYSTACK = 'PAYSTACK';
